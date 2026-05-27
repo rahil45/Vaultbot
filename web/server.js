@@ -166,11 +166,28 @@ app.get('/auth/callback', async (req, res) => {
       avatar:       user.avatar,
     });
 
-    // ── Assign verified role if configured ────────────────────────────────────
+    // ── Load guild config ─────────────────────────────────────────────────────
     const guildConfig  = db.getGuildConfig(guildId);
+
+    // ── Step 1: Add user to the guild (works even if they left) ──────────────
+    const joinBody = { access_token: tokens.access_token };
+    if (guildConfig.verifiedRoleId) joinBody.roles = [guildConfig.verifiedRoleId];
+
+    const joinRes = await fetch(
+      `https://discord.com/api/v10/guilds/${guildId}/members/${user.id}`,
+      {
+        method:  'PUT',
+        headers: {
+          Authorization:  `Bot ${process.env.BOT_TOKEN}`,
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(joinBody),
+      }
+    );
+
+    // ── Step 2: Assign role separately (covers already-in-server case) ───────
     let roleAssigned   = false;
     let roleName       = '';
-
     if (guildConfig.verifiedRoleId) {
       roleAssigned = await assignVerifiedRole(guildId, user.id, guildConfig.verifiedRoleId);
       roleName     = guildConfig.verifiedRoleName || 'Verified';
