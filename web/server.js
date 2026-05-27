@@ -189,12 +189,11 @@ app.get('/auth/callback', async (req, res) => {
       .setAuthor({ name: `${user.username} verified`, iconURL: avatarUrl })
       .setThumbnail(avatarUrl)
       .addFields(
-        { name: '👤 User',             value: `<@${user.id}> \`${user.username}\``,           inline: true },
-        { name: '🆔 User ID',          value: `\`${user.id}\``,                               inline: true },
-        { name: '🎖️ Role Assigned',    value: roleAssigned ? `<@&${guildConfig.verifiedRoleId}>` : '`None`', inline: true },
-        { name: '📅 Verified At',       value: `<t:${Math.floor(Date.now() / 1000)}:F>`,      inline: true },
-        { name: '🌐 OAuth Scope',       value: `\`${tokens.scope}\``,                         inline: true },
-        { name: '📊 Total Verified',    value: `\`${totalVerified}\` members`,                inline: true },
+        { name: '◦ User',             value: `<@${user.id}> \`${user.username}\``,           inline: true },
+        { name: '◦ User ID',          value: `\`${user.id}\``,                               inline: true },
+        { name: '◦ Role Assigned',    value: roleAssigned ? `<@&${guildConfig.verifiedRoleId}>` : '`None`', inline: false },
+        { name: '◦ Verified At',       value: `<t:${Math.floor(Date.now() / 1000)}:F>`,      inline: false },
+        { name: '◦ Total Verified',    value: `\`${totalVerified}\` members`,                inline: false },
       )
       .setFooter({ text: `VaultBot • Verification Log` })
       .setTimestamp();
