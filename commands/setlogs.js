@@ -102,12 +102,11 @@ module.exports = {
       .setAuthor({ name: 'ExampleUser#0000 verified', iconURL: 'https://cdn.discordapp.com/embed/avatars/0.png' })
       .setThumbnail('https://cdn.discordapp.com/embed/avatars/0.png')
       .addFields(
-        { name: '👤 User',           value: `<@${interaction.user.id}> \`${interaction.user.username}\``, inline: true },
-        { name: '🆔 User ID',        value: `\`${interaction.user.id}\``,                               inline: true },
-        { name: '🎖️ Role Assigned',  value: '`✅ Verified`',                                            inline: true },
-        { name: '📅 Verified At',     value: `<t:${Math.floor(Date.now() / 1000)}:F>`,                  inline: true },
-        { name: '🌐 OAuth Scope',     value: '`identify guilds.join`',                                  inline: true },
-        { name: '📊 Total Verified',  value: '`1` members',                                             inline: true },
+        { name: '◦ User',           value: `<@${interaction.user.id}> \`${interaction.user.username}\``, inline: true },
+        { name: '◦ User ID',        value: `\`${interaction.user.id}\``,                               inline: true },
+        { name: '◦ Role Assigned',  value: '`✅ Verified`',                                            inline: false },
+        { name: '◦ Verified At',     value: `<t:${Math.floor(Date.now() / 1000)}:F>`,                  inline: true },
+        { name: '◦ Total Verified',  value: '`1` members',                                             inline: true },
       )
       .setFooter({ text: 'VaultBot • Verification Log (Sample)' })
       .setTimestamp();
