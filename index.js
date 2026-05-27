@@ -16,7 +16,8 @@ if (missing.length) {
 }
 
 // ── Start web server ──────────────────────────────────────────────────────────
-app.listen(PORT, () => {
+// Must bind to 0.0.0.0 on Railway — not just localhost
+app.listen(PORT, '0.0.0.0', () => {
   console.log(`🌐 OAuth2 web server running on port ${PORT}`);
   console.log(`   Callback URL: ${process.env.REDIRECT_URI}`);
 });
