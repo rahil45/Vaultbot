@@ -128,12 +128,12 @@ module.exports = {
             `**This cannot be undone!**`
           )
           .addFields(
-            { name: '📦 Backup from',  value: backup.guildName,  inline: true },
-            { name: '📥 Restoring to', value: guild.name,        inline: true },
-            { name: '📅 Backup date',  value: `<t:${Math.floor(new Date(backup.createdAt).getTime()/1000)}:R>`, inline: true },
-            { name: '📁 Roles',        value: `${backup.roles.length}`,    inline: true },
-            { name: '📁 Channels',     value: `${backup.channels.length + backup.categories.length}`, inline: true },
-            { name: '🔑 Backup ID',    value: `\`${backupId}\``, inline: true },
+            { name: '◦ Backup from',  value: backup.guildName,  inline: true },
+            { name: '◦ Restoring to', value: guild.name,        inline: true },
+            { name: '◦ Backup date',  value: `<t:${Math.floor(new Date(backup.createdAt).getTime()/1000)}:R>`, inline: false },
+            { name: '◦ Roles',        value: `${backup.roles.length}`,    inline: true },
+            { name: '◦ Channels',     value: `${backup.channels.length + backup.categories.length}`, inline: true },
+            { name: '◦ Backup ID',    value: `\`${backupId}\``, inline: false },
           )
       ],
       components: [row],
