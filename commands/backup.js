@@ -53,10 +53,10 @@ module.exports = {
               .setTitle('✅ Backup Created!')
               .setDescription('Save this backup ID somewhere safe — you need it to restore.')
               .addFields(
-                { name: '🔑 Backup ID', value: `\`${backupId}\``,           inline: false },
-                { name: '📁 Roles',     value: `${backup.roleCount}`,       inline: true  },
-                { name: '📁 Channels',  value: `${backup.channelCount}`,    inline: true  },
-                { name: '📅 Created',   value: `<t:${Math.floor(Date.now()/1000)}:R>`, inline: true },
+                { name: '◦ Backup ID', value: `\`${backupId}\``,           inline: false },
+                { name: '◦ Roles',     value: `${backup.roleCount}`,       inline: true  },
+                { name: '◦ Channels',  value: `${backup.channelCount}`,    inline: true  },
+                { name: '◦ Created',   value: `<t:${Math.floor(Date.now()/1000)}:R>`, inline: false },
               )
               .setFooter({ text: 'Auto-backup also runs every 24h automatically' })
           ]
@@ -84,8 +84,8 @@ module.exports = {
         backups = listBackups(guildId);
         const isOtherGuild = guildId !== guild.id;
         title   = isOtherGuild
-          ? `💾 Backups for old server \`${guildId}\``
-          : `💾 Backups for ${guild.name}`;
+          ? `◦ Backups for old server \`${guildId}\``
+          : `◦ Backups for ${guild.name}`;
       }
 
       if (!backups.length) {
