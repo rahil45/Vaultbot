@@ -1,0 +1,3912 @@
+{
+  "id": "1499133090839400511_1779874185909",
+  "guildId": "1499133090839400511",
+  "guildName": "Mazor MM & Exch",
+  "createdAt": "2026-05-27T09:29:46.530Z",
+  "auto": true,
+  "settings": {
+    "name": "Mazor MM & Exch",
+    "icon": "https://cdn.discordapp.com/icons/1499133090839400511/37cdb45d56dee0c33abdb5c88f5ef93e.webp",
+    "description": "",
+    "verificationLevel": 0,
+    "defaultMessageNotifications": 0,
+    "explicitContentFilter": 0,
+    "afkTimeout": 300,
+    "systemChannelFlags": "0"
+  },
+  "roles": [
+    {
+      "id": "1499850674299469825",
+      "name": "Dev",
+      "color": 0,
+      "hoist": false,
+      "position": 47,
+      "permissions": "8",
+      "mentionable": false,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "1499850409408335942",
+      "name": "Owner",
+      "color": 0,
+      "hoist": true,
+      "position": 46,
+      "permissions": "8",
+      "mentionable": false,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "1499811941252731020",
+      "name": "RateForge Admin",
+      "color": 0,
+      "hoist": false,
+      "position": 45,
+      "permissions": "0",
+      "mentionable": false,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "1499900915258494998",
+      "name": "Administration",
+      "color": 16451901,
+      "hoist": true,
+      "position": 44,
+      "permissions": "8",
+      "mentionable": false,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "1499903560446644375",
+      "name": "Mazor Helpers",
+      "color": 0,
+      "hoist": true,
+      "position": 43,
+      "permissions": "8",
+      "mentionable": false,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "1508141496275308584",
+      "name": "Bots",
+      "color": 0,
+      "hoist": false,
+      "position": 42,
+      "permissions": "8",
+      "mentionable": false,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "1499904325034709082",
+      "name": "Staff of the month",
+      "color": 10181046,
+      "hoist": true,
+      "position": 41,
+      "permissions": "0",
+      "mentionable": false,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "1499904492668321822",
+      "name": "Staff of the week",
+      "color": 7419530,
+      "hoist": true,
+      "position": 40,
+      "permissions": "0",
+      "mentionable": false,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "1499904698545733783",
+      "name": "Head Moderator",
+      "color": 8241130,
+      "hoist": true,
+      "position": 39,
+      "permissions": "6594857656516311",
+      "mentionable": false,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "1499901172797149385",
+      "name": "Senior Support Staff",
+      "color": 11021122,
+      "hoist": true,
+      "position": 38,
+      "permissions": "5467857696972481",
+      "mentionable": false,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "1499901496102228120",
+      "name": "Ticket Admin",
+      "color": 6323595,
+      "hoist": false,
+      "position": 37,
+      "permissions": "6031906885197511",
+      "mentionable": false,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "1499902845208625303",
+      "name": "Moderators",
+      "color": 4162460,
+      "hoist": true,
+      "position": 36,
+      "permissions": "8283706711473985",
+      "mentionable": false,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "1499902468954525776",
+      "name": "Ticket Moderators",
+      "color": 15286596,
+      "hoist": false,
+      "position": 35,
+      "permissions": "1528290061180481",
+      "mentionable": false,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "1499901837958975519",
+      "name": "Junior Support Staff",
+      "color": 11544104,
+      "hoist": true,
+      "position": 34,
+      "permissions": "1099511694337",
+      "mentionable": false,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "1505320968518766692",
+      "name": "Staff",
+      "color": 0,
+      "hoist": false,
+      "position": 33,
+      "permissions": "1720707884502593",
+      "mentionable": false,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "1499903343961571419",
+      "name": "Head of Exchangers and MM",
+      "color": 214303,
+      "hoist": true,
+      "position": 32,
+      "permissions": "0",
+      "mentionable": false,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "1499900469147992254",
+      "name": "Senior MM",
+      "color": 2123412,
+      "hoist": true,
+      "position": 31,
+      "permissions": "0",
+      "mentionable": false,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "1499900462852472832",
+      "name": "Junior MM",
+      "color": 2782373,
+      "hoist": false,
+      "position": 30,
+      "permissions": "0",
+      "mentionable": false,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "1499900415796314292",
+      "name": "Trial MM",
+      "color": 3447003,
+      "hoist": true,
+      "position": 29,
+      "permissions": "0",
+      "mentionable": false,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "1505318386601693185",
+      "name": "Middleman",
+      "color": 0,
+      "hoist": false,
+      "position": 28,
+      "permissions": "1720707884502593",
+      "mentionable": false,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "1499903984411082874",
+      "name": "Exchanger of the month",
+      "color": 15277667,
+      "hoist": true,
+      "position": 27,
+      "permissions": "0",
+      "mentionable": false,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "1499904146923454525",
+      "name": "Exchanger of the week",
+      "color": 11342935,
+      "hoist": true,
+      "position": 26,
+      "permissions": "0",
+      "mentionable": false,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "1499898871747182723",
+      "name": "Senior Exchanger",
+      "color": 1146986,
+      "hoist": true,
+      "position": 25,
+      "permissions": "0",
+      "mentionable": false,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "1499898796392448000",
+      "name": "Junior Exchanger",
+      "color": 1752220,
+      "hoist": true,
+      "position": 24,
+      "permissions": "0",
+      "mentionable": false,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "1499898664771125389",
+      "name": "Trial Exchanger",
+      "color": 3066993,
+      "hoist": true,
+      "position": 23,
+      "permissions": "0",
+      "mentionable": false,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "1499899688110002378",
+      "name": "INR Exchanger",
+      "color": 0,
+      "hoist": false,
+      "position": 22,
+      "permissions": "0",
+      "mentionable": false,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "1499899911230062602",
+      "name": "Paypal Exchanger",
+      "color": 0,
+      "hoist": false,
+      "position": 21,
+      "permissions": "0",
+      "mentionable": false,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "1499899973351772190",
+      "name": "BDK Exchanger",
+      "color": 0,
+      "hoist": false,
+      "position": 20,
+      "permissions": "0",
+      "mentionable": false,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "1499899966083039543",
+      "name": "NPR Exchanger",
+      "color": 0,
+      "hoist": false,
+      "position": 19,
+      "permissions": "0",
+      "mentionable": false,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "1505318093721829427",
+      "name": "Exchanger",
+      "color": 0,
+      "hoist": false,
+      "position": 18,
+      "permissions": "0",
+      "mentionable": false,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "1499899680090230934",
+      "name": "VIP Client",
+      "color": 16632839,
+      "hoist": true,
+      "position": 17,
+      "permissions": "0",
+      "mentionable": false,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "1499899536540438528",
+      "name": "Supreme Client",
+      "color": 13740822,
+      "hoist": true,
+      "position": 16,
+      "permissions": "0",
+      "mentionable": false,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "1499899394424570100",
+      "name": "Rich Client",
+      "color": 13150507,
+      "hoist": true,
+      "position": 15,
+      "permissions": "0",
+      "mentionable": false,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "1499899096255959210",
+      "name": "Regular Client",
+      "color": 11506467,
+      "hoist": true,
+      "position": 14,
+      "permissions": "0",
+      "mentionable": false,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "1499898957764100186",
+      "name": "Client",
+      "color": 10126630,
+      "hoist": true,
+      "position": 13,
+      "permissions": "0",
+      "mentionable": false,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "1500525829464002803",
+      "name": "Fam",
+      "color": 10038562,
+      "hoist": true,
+      "position": 12,
+      "permissions": "36996673",
+      "mentionable": false,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "1500575157234962534",
+      "name": "Mazor Exchange",
+      "color": 0,
+      "hoist": false,
+      "position": 11,
+      "permissions": "8",
+      "mentionable": false,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "1508138057239629988",
+      "name": "Double Counter",
+      "color": 0,
+      "hoist": false,
+      "position": 10,
+      "permissions": "8",
+      "mentionable": false,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "1508138266233274370",
+      "name": "Ticket Tool",
+      "color": 0,
+      "hoist": false,
+      "position": 9,
+      "permissions": "2416045072",
+      "mentionable": false,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "1508138406985728002",
+      "name": "Apollo Bot",
+      "color": 0,
+      "hoist": false,
+      "position": 8,
+      "permissions": "9089493363792",
+      "mentionable": false,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "1508138502733430937",
+      "name": "carl-bot",
+      "color": 0,
+      "hoist": false,
+      "position": 7,
+      "permissions": "573242775563510",
+      "mentionable": false,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "1508138638209187862",
+      "name": "Jockie Music (2)",
+      "color": 0,
+      "hoist": false,
+      "position": 6,
+      "permissions": "8",
+      "mentionable": false,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "1508139162782535725",
+      "name": "Xenon",
+      "color": 0,
+      "hoist": false,
+      "position": 5,
+      "permissions": "8",
+      "mentionable": false,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "1508140541383282853",
+      "name": "Giveaway Boat",
+      "color": 0,
+      "hoist": false,
+      "position": 4,
+      "permissions": "395405814849",
+      "mentionable": false,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "1508141329173975153",
+      "name": "Invite Tracker",
+      "color": 0,
+      "hoist": false,
+      "position": 3,
+      "permissions": "2251800082500734",
+      "mentionable": false,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "1508141418663645217",
+      "name": "Mimu",
+      "color": 0,
+      "hoist": false,
+      "position": 2,
+      "permissions": "1007021169",
+      "mentionable": false,
+      "icon": null,
+      "unicodeEmoji": null
+    },
+    {
+      "id": "1509101927777042452",
+      "name": "Test",
+      "color": 0,
+      "hoist": false,
+      "position": 1,
+      "permissions": "8",
+      "mentionable": false,
+      "icon": null,
+      "unicodeEmoji": null
+    }
+  ],
+  "categories": [
+    {
+      "id": "1505620530336763974",
+      "name": "♢   ┃  Services ⤸",
+      "type": 4,
+      "position": 9,
+      "perms": []
+    },
+    {
+      "id": "1500523509913358478",
+      "name": "♢   ┃  Bots And Logs Panel ⤸",
+      "type": 4,
+      "position": 1,
+      "perms": [
+        {
+          "id": "1499133090839400511",
+          "type": 0,
+          "allow": "0",
+          "deny": "1024"
+        }
+      ]
+    },
+    {
+      "id": "1505615431392694342",
+      "name": "♢   ┃  Applications ⤸",
+      "type": 4,
+      "position": 5,
+      "perms": [
+        {
+          "id": "1499133090839400511",
+          "type": 0,
+          "allow": "0",
+          "deny": "1024"
+        }
+      ]
+    },
+    {
+      "id": "1505186164171210852",
+      "name": "♢   ┃  Exchange Tickets ⤸",
+      "type": 4,
+      "position": 14,
+      "perms": [
+        {
+          "id": "1499900415796314292",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499811941252731020",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499850409408335942",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1505318093721829427",
+          "type": 0,
+          "allow": "1024",
+          "deny": "0"
+        },
+        {
+          "id": "1499903343961571419",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499898796392448000",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499899688110002378",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499902468954525776",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499900469147992254",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499901837958975519",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499901496102228120",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499898871747182723",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499901172797149385",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499898664771125389",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499133090839400511",
+          "type": 0,
+          "allow": "0",
+          "deny": "1049600"
+        },
+        {
+          "id": "1499904698545733783",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499900462852472832",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        }
+      ]
+    },
+    {
+      "id": "1505621101873598554",
+      "name": "♢   ┃  Entrance ⤸",
+      "type": 4,
+      "position": 7,
+      "perms": [
+        {
+          "id": "1505318093721829427",
+          "type": 0,
+          "allow": "1024",
+          "deny": "2048"
+        }
+      ]
+    },
+    {
+      "id": "1505614764636901386",
+      "name": "♢   ┃  Auto MM Tickets ⤸",
+      "type": 4,
+      "position": 13,
+      "perms": [
+        {
+          "id": "1499133090839400511",
+          "type": 0,
+          "allow": "0",
+          "deny": "1024"
+        }
+      ]
+    },
+    {
+      "id": "1505620462393098300",
+      "name": "♢   ┃  Information ⤸",
+      "type": 4,
+      "position": 8,
+      "perms": [
+        {
+          "id": "1508138502733430937",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499904698545733783",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1508138266233274370",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1505320968518766692",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "2048"
+        },
+        {
+          "id": "1508140541383282853",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1508138406985728002",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1500525829464002803",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "2048"
+        },
+        {
+          "id": "1499901172797149385",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499133090839400511",
+          "type": 0,
+          "allow": "0",
+          "deny": "1024"
+        },
+        {
+          "id": "1499902468954525776",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "2048"
+        },
+        {
+          "id": "1508141418663645217",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499902845208625303",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "2048"
+        },
+        {
+          "id": "1499901837958975519",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "2048"
+        }
+      ]
+    },
+    {
+      "id": "1499133091560558714",
+      "name": "♢   ┃  Legitimacy ⤸",
+      "type": 4,
+      "position": 11,
+      "perms": []
+    },
+    {
+      "id": "1505614802020733149",
+      "name": "♢   ┃  MM Tickets ⤸",
+      "type": 4,
+      "position": 15,
+      "perms": [
+        {
+          "id": "1499133090839400511",
+          "type": 0,
+          "allow": "0",
+          "deny": "1024"
+        }
+      ]
+    },
+    {
+      "id": "1508244362063253504",
+      "name": "♢   ┃  Giveaway TIckets ⤸",
+      "type": 4,
+      "position": 4,
+      "perms": [
+        {
+          "id": "1499133090839400511",
+          "type": 0,
+          "allow": "0",
+          "deny": "1049600"
+        }
+      ]
+    },
+    {
+      "id": "1508244806105563229",
+      "name": "♢   ┃  Staff Recovery Tickets ⤸",
+      "type": 4,
+      "position": 6,
+      "perms": []
+    },
+    {
+      "id": "1500525138678906880",
+      "name": "♢   ┃  Staff Tickets ⤸",
+      "type": 4,
+      "position": 2,
+      "perms": [
+        {
+          "id": "1499133090839400511",
+          "type": 0,
+          "allow": "0",
+          "deny": "1024"
+        },
+        {
+          "id": "1500525829464002803",
+          "type": 0,
+          "allow": "0",
+          "deny": "0"
+        },
+        {
+          "id": "1500575157234962534",
+          "type": 0,
+          "allow": "0",
+          "deny": "1024"
+        }
+      ]
+    },
+    {
+      "id": "1505620843995332648",
+      "name": "♢   ┃  Support ⤸",
+      "type": 4,
+      "position": 10,
+      "perms": []
+    },
+    {
+      "id": "1500523371014652077",
+      "name": "♢   ┃  Staff Area ⤸",
+      "type": 4,
+      "position": 0,
+      "perms": [
+        {
+          "id": "1499900415796314292",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499811941252731020",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499850409408335942",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499903343961571419",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499898796392448000",
+          "type": 0,
+          "allow": "1024",
+          "deny": "2048"
+        },
+        {
+          "id": "1499901837958975519",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499902468954525776",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499902845208625303",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499901496102228120",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499901172797149385",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499898664771125389",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "2064"
+        },
+        {
+          "id": "1499850674299469825",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499133090839400511",
+          "type": 0,
+          "allow": "0",
+          "deny": "1024"
+        },
+        {
+          "id": "1499904698545733783",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        }
+      ]
+    },
+    {
+      "id": "1505614945348354229",
+      "name": "♢   ┃  Support Tickets ⤸",
+      "type": 4,
+      "position": 3,
+      "perms": [
+        {
+          "id": "1499133090839400511",
+          "type": 0,
+          "allow": "0",
+          "deny": "1024"
+        }
+      ]
+    },
+    {
+      "id": "1499133091560558715",
+      "name": "♢   ┃  Lounge ⤸",
+      "type": 4,
+      "position": 12,
+      "perms": [
+        {
+          "id": "1499898957764100186",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499904325034709082",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1500525829464002803",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1505320968518766692",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499901172797149385",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499903343961571419",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499133090839400511",
+          "type": 0,
+          "allow": "0",
+          "deny": "1024"
+        },
+        {
+          "id": "1499902468954525776",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499901837958975519",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499902845208625303",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499901496102228120",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        }
+      ]
+    }
+  ],
+  "channels": [
+    {
+      "id": "1505609616522743808",
+      "name": "exchange-log",
+      "type": 0,
+      "position": 8,
+      "perms": [
+        {
+          "id": "1499133090839400511",
+          "type": 0,
+          "allow": "0",
+          "deny": "1024"
+        },
+        {
+          "id": "1500525829464002803",
+          "type": 0,
+          "allow": "0",
+          "deny": "1024"
+        },
+        {
+          "id": "1499901172797149385",
+          "type": 0,
+          "allow": "0",
+          "deny": "10240"
+        },
+        {
+          "id": "1499901496102228120",
+          "type": 0,
+          "allow": "0",
+          "deny": "10240"
+        }
+      ],
+      "topic": null,
+      "nsfw": false,
+      "rateLimitPerUser": 0,
+      "parentId": "1500523509913358478",
+      "bitrate": null,
+      "userLimit": null,
+      "defaultAutoArchiveDuration": null
+    },
+    {
+      "id": "1500524754002513981",
+      "name": "admins-room",
+      "type": 0,
+      "position": 6,
+      "perms": [
+        {
+          "id": "1499133090839400511",
+          "type": 0,
+          "allow": "0",
+          "deny": "1024"
+        }
+      ],
+      "topic": null,
+      "nsfw": false,
+      "rateLimitPerUser": 0,
+      "parentId": "1500523509913358478",
+      "bitrate": null,
+      "userLimit": null,
+      "defaultAutoArchiveDuration": null
+    },
+    {
+      "id": "1505622353776873663",
+      "name": "﹒auto-mm",
+      "type": 0,
+      "position": 1,
+      "perms": [
+        {
+          "id": "1508138502733430937",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499901837958975519",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "2048"
+        },
+        {
+          "id": "1508138266233274370",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1505320968518766692",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "2048"
+        },
+        {
+          "id": "1508140541383282853",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499901172797149385",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1508138406985728002",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1500525829464002803",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "2048"
+        },
+        {
+          "id": "1499133090839400511",
+          "type": 0,
+          "allow": "0",
+          "deny": "1024"
+        },
+        {
+          "id": "1499904698545733783",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1508141418663645217",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499902845208625303",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "2048"
+        },
+        {
+          "id": "1499902468954525776",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "2048"
+        }
+      ],
+      "topic": null,
+      "nsfw": false,
+      "rateLimitPerUser": 0,
+      "parentId": "1505620530336763974",
+      "bitrate": null,
+      "userLimit": null,
+      "defaultAutoArchiveDuration": null
+    },
+    {
+      "id": "1505623488797605968",
+      "name": "🎫﹒support﹒",
+      "type": 0,
+      "position": 1,
+      "perms": [
+        {
+          "id": "1508138502733430937",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499904698545733783",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1508138406985728002",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499901172797149385",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1508140541383282853",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1505320968518766692",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "2048"
+        },
+        {
+          "id": "1508138266233274370",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1500525829464002803",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "2048"
+        },
+        {
+          "id": "1499133090839400511",
+          "type": 0,
+          "allow": "0",
+          "deny": "1024"
+        },
+        {
+          "id": "1499902468954525776",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "2048"
+        },
+        {
+          "id": "1508141418663645217",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499902845208625303",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "2048"
+        },
+        {
+          "id": "1499901837958975519",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "2048"
+        }
+      ],
+      "topic": null,
+      "nsfw": false,
+      "rateLimitPerUser": 0,
+      "parentId": "1505620843995332648",
+      "bitrate": null,
+      "userLimit": null,
+      "defaultAutoArchiveDuration": null
+    },
+    {
+      "id": "1500523972154888384",
+      "name": "invite-logs",
+      "type": 0,
+      "position": 1,
+      "perms": [
+        {
+          "id": "1499904698545733783",
+          "type": 0,
+          "allow": "0",
+          "deny": "10240"
+        },
+        {
+          "id": "1499133090839400511",
+          "type": 0,
+          "allow": "0",
+          "deny": "1024"
+        },
+        {
+          "id": "1500525829464002803",
+          "type": 0,
+          "allow": "0",
+          "deny": "1024"
+        },
+        {
+          "id": "1499901172797149385",
+          "type": 0,
+          "allow": "0",
+          "deny": "10240"
+        },
+        {
+          "id": "1499902845208625303",
+          "type": 0,
+          "allow": "0",
+          "deny": "10240"
+        },
+        {
+          "id": "1499901837958975519",
+          "type": 0,
+          "allow": "0",
+          "deny": "10240"
+        }
+      ],
+      "topic": null,
+      "nsfw": false,
+      "rateLimitPerUser": 0,
+      "parentId": "1500523509913358478",
+      "bitrate": null,
+      "userLimit": null,
+      "defaultAutoArchiveDuration": null
+    },
+    {
+      "id": "1505623520598560808",
+      "name": "🎫﹒giveaway-claim﹒",
+      "type": 0,
+      "position": 3,
+      "perms": [
+        {
+          "id": "1508138502733430937",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499133090839400511",
+          "type": 0,
+          "allow": "0",
+          "deny": "1024"
+        },
+        {
+          "id": "1500525829464002803",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "2048"
+        },
+        {
+          "id": "1505320968518766692",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "2048"
+        },
+        {
+          "id": "1508140541383282853",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1508138406985728002",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1508138266233274370",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499901172797149385",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499901837958975519",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "2048"
+        },
+        {
+          "id": "1499904698545733783",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1508141418663645217",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499902845208625303",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "2048"
+        },
+        {
+          "id": "1499902468954525776",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "2048"
+        }
+      ],
+      "topic": null,
+      "nsfw": false,
+      "rateLimitPerUser": 0,
+      "parentId": "1505620843995332648",
+      "bitrate": null,
+      "userLimit": null,
+      "defaultAutoArchiveDuration": null
+    },
+    {
+      "id": "1500524193316343981",
+      "name": "bot-commands",
+      "type": 0,
+      "position": 4,
+      "perms": [
+        {
+          "id": "1499900415796314292",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1500525829464002803",
+          "type": 0,
+          "allow": "1048576",
+          "deny": "1024"
+        },
+        {
+          "id": "1499811941252731020",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499903343961571419",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499850409408335942",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499898796392448000",
+          "type": 0,
+          "allow": "3072",
+          "deny": "0"
+        },
+        {
+          "id": "1499901837958975519",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499902468954525776",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499902845208625303",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499901496102228120",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499901172797149385",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499898664771125389",
+          "type": 0,
+          "allow": "1051648",
+          "deny": "16"
+        },
+        {
+          "id": "1499850674299469825",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499133090839400511",
+          "type": 0,
+          "allow": "0",
+          "deny": "1024"
+        },
+        {
+          "id": "1499904698545733783",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        }
+      ],
+      "topic": null,
+      "nsfw": false,
+      "rateLimitPerUser": 0,
+      "parentId": "1500523371014652077",
+      "bitrate": null,
+      "userLimit": null,
+      "defaultAutoArchiveDuration": null
+    },
+    {
+      "id": "1500523585477935347",
+      "name": "staff-announcement",
+      "type": 0,
+      "position": 0,
+      "perms": [
+        {
+          "id": "1499900415796314292",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499811941252731020",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499850409408335942",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499903343961571419",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499898796392448000",
+          "type": 0,
+          "allow": "1024",
+          "deny": "2048"
+        },
+        {
+          "id": "1499901837958975519",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499902468954525776",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499902845208625303",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499901496102228120",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499901172797149385",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499898664771125389",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "2064"
+        },
+        {
+          "id": "1499850674299469825",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499133090839400511",
+          "type": 0,
+          "allow": "0",
+          "deny": "1024"
+        },
+        {
+          "id": "1499904698545733783",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        }
+      ],
+      "topic": null,
+      "nsfw": false,
+      "rateLimitPerUser": 0,
+      "parentId": "1500523371014652077",
+      "bitrate": null,
+      "userLimit": null,
+      "defaultAutoArchiveDuration": null
+    },
+    {
+      "id": "1505621972598391017",
+      "name": "🎁﹒giveaways",
+      "type": 0,
+      "position": 2,
+      "perms": [
+        {
+          "id": "1508138502733430937",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499133090839400511",
+          "type": 0,
+          "allow": "0",
+          "deny": "1024"
+        },
+        {
+          "id": "1508138406985728002",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499901172797149385",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1508140541383282853",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1500525829464002803",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "2048"
+        },
+        {
+          "id": "1508138266233274370",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1505320968518766692",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "2048"
+        },
+        {
+          "id": "1499901837958975519",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "2048"
+        },
+        {
+          "id": "1499904698545733783",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1508141418663645217",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499902845208625303",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "2048"
+        },
+        {
+          "id": "1499902468954525776",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "2048"
+        }
+      ],
+      "topic": null,
+      "nsfw": false,
+      "rateLimitPerUser": 0,
+      "parentId": "1505620462393098300",
+      "bitrate": null,
+      "userLimit": null,
+      "defaultAutoArchiveDuration": null
+    },
+    {
+      "id": "1500524802849505421",
+      "name": "meeting vc",
+      "type": 2,
+      "position": 1,
+      "perms": [
+        {
+          "id": "1499900415796314292",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499811941252731020",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499850409408335942",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499903343961571419",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499898796392448000",
+          "type": 0,
+          "allow": "1024",
+          "deny": "2048"
+        },
+        {
+          "id": "1499901837958975519",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499902468954525776",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499902845208625303",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499901496102228120",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499901172797149385",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499898664771125389",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "2064"
+        },
+        {
+          "id": "1499850674299469825",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499133090839400511",
+          "type": 0,
+          "allow": "0",
+          "deny": "1024"
+        },
+        {
+          "id": "1499904698545733783",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        }
+      ],
+      "topic": null,
+      "nsfw": false,
+      "rateLimitPerUser": 0,
+      "parentId": "1500523371014652077",
+      "bitrate": 64000,
+      "userLimit": null,
+      "defaultAutoArchiveDuration": null
+    },
+    {
+      "id": "1505621863995277545",
+      "name": "🚨﹒announcement",
+      "type": 0,
+      "position": 1,
+      "perms": [
+        {
+          "id": "1508138502733430937",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499901837958975519",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "2048"
+        },
+        {
+          "id": "1500525829464002803",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "2048"
+        },
+        {
+          "id": "1505320968518766692",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "2048"
+        },
+        {
+          "id": "1508140541383282853",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499901172797149385",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1508138266233274370",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1508138406985728002",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499133090839400511",
+          "type": 0,
+          "allow": "0",
+          "deny": "1024"
+        },
+        {
+          "id": "1499902468954525776",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "2048"
+        },
+        {
+          "id": "1508141418663645217",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499902845208625303",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "2048"
+        },
+        {
+          "id": "1499904698545733783",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        }
+      ],
+      "topic": null,
+      "nsfw": false,
+      "rateLimitPerUser": 0,
+      "parentId": "1505620462393098300",
+      "bitrate": null,
+      "userLimit": null,
+      "defaultAutoArchiveDuration": null
+    },
+    {
+      "id": "1505621834048077945",
+      "name": "⭐﹒rules",
+      "type": 0,
+      "position": 0,
+      "perms": [
+        {
+          "id": "1508138502733430937",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499904698545733783",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1508138406985728002",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1505320968518766692",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "2048"
+        },
+        {
+          "id": "1508140541383282853",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1500525829464002803",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "2048"
+        },
+        {
+          "id": "1508138266233274370",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499901172797149385",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499901837958975519",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "2048"
+        },
+        {
+          "id": "1499902468954525776",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "2048"
+        },
+        {
+          "id": "1508141418663645217",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499902845208625303",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "2048"
+        },
+        {
+          "id": "1499133090839400511",
+          "type": 0,
+          "allow": "0",
+          "deny": "1024"
+        }
+      ],
+      "topic": null,
+      "nsfw": false,
+      "rateLimitPerUser": 0,
+      "parentId": "1505620462393098300",
+      "bitrate": null,
+      "userLimit": null,
+      "defaultAutoArchiveDuration": null
+    },
+    {
+      "id": "1505623368022360104",
+      "name": "📥﹒application﹒",
+      "type": 0,
+      "position": 0,
+      "perms": [
+        {
+          "id": "1508138502733430937",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499902468954525776",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "2048"
+        },
+        {
+          "id": "1500525829464002803",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "2048"
+        },
+        {
+          "id": "1499901172797149385",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1508140541383282853",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1508138406985728002",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1508138266233274370",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1505320968518766692",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "2048"
+        },
+        {
+          "id": "1499901837958975519",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "2048"
+        },
+        {
+          "id": "1499904698545733783",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1508141418663645217",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499902845208625303",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "2048"
+        },
+        {
+          "id": "1499133090839400511",
+          "type": 0,
+          "allow": "0",
+          "deny": "1024"
+        }
+      ],
+      "topic": null,
+      "nsfw": false,
+      "rateLimitPerUser": 0,
+      "parentId": "1505620843995332648",
+      "bitrate": null,
+      "userLimit": null,
+      "defaultAutoArchiveDuration": null
+    },
+    {
+      "id": "1499846390791016499",
+      "name": "✅﹒feedbacks﹒",
+      "type": 0,
+      "position": 3,
+      "perms": [
+        {
+          "id": "1500525829464002803",
+          "type": 0,
+          "allow": "65536",
+          "deny": "0"
+        }
+      ],
+      "topic": null,
+      "nsfw": false,
+      "rateLimitPerUser": 0,
+      "parentId": "1499133091560558714",
+      "bitrate": null,
+      "userLimit": null,
+      "defaultAutoArchiveDuration": null
+    },
+    {
+      "id": "1505622194074419250",
+      "name": "📝﹒auto-mm-tos",
+      "type": 0,
+      "position": 5,
+      "perms": [
+        {
+          "id": "1508138502733430937",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499133090839400511",
+          "type": 0,
+          "allow": "0",
+          "deny": "1024"
+        },
+        {
+          "id": "1508138266233274370",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499901172797149385",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1508140541383282853",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1505320968518766692",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "2048"
+        },
+        {
+          "id": "1500525829464002803",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "2048"
+        },
+        {
+          "id": "1508138406985728002",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499901837958975519",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "2048"
+        },
+        {
+          "id": "1499902468954525776",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "2048"
+        },
+        {
+          "id": "1508141418663645217",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499902845208625303",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "2048"
+        },
+        {
+          "id": "1499904698545733783",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        }
+      ],
+      "topic": null,
+      "nsfw": false,
+      "rateLimitPerUser": 0,
+      "parentId": "1505620462393098300",
+      "bitrate": null,
+      "userLimit": null,
+      "defaultAutoArchiveDuration": null
+    },
+    {
+      "id": "1500524853562835175",
+      "name": "staff-support",
+      "type": 0,
+      "position": 5,
+      "perms": [
+        {
+          "id": "1499900415796314292",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1500525829464002803",
+          "type": 0,
+          "allow": "1048576",
+          "deny": "1024"
+        },
+        {
+          "id": "1499811941252731020",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499850409408335942",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499903343961571419",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "2048"
+        },
+        {
+          "id": "1499898796392448000",
+          "type": 0,
+          "allow": "1024",
+          "deny": "2048"
+        },
+        {
+          "id": "1499901837958975519",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "2048"
+        },
+        {
+          "id": "1499902468954525776",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499902845208625303",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "2048"
+        },
+        {
+          "id": "1499901496102228120",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "2048"
+        },
+        {
+          "id": "1499901172797149385",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "2048"
+        },
+        {
+          "id": "1499898664771125389",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "2064"
+        },
+        {
+          "id": "1499850674299469825",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499133090839400511",
+          "type": 0,
+          "allow": "0",
+          "deny": "1024"
+        },
+        {
+          "id": "1499904698545733783",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "2048"
+        }
+      ],
+      "topic": null,
+      "nsfw": false,
+      "rateLimitPerUser": 0,
+      "parentId": "1500523371014652077",
+      "bitrate": null,
+      "userLimit": null,
+      "defaultAutoArchiveDuration": null
+    },
+    {
+      "id": "1500523912776253552",
+      "name": "msg-logs",
+      "type": 0,
+      "position": 0,
+      "perms": [
+        {
+          "id": "1499133090839400511",
+          "type": 0,
+          "allow": "0",
+          "deny": "1024"
+        },
+        {
+          "id": "1499904698545733783",
+          "type": 0,
+          "allow": "0",
+          "deny": "0"
+        },
+        {
+          "id": "1500525829464002803",
+          "type": 0,
+          "allow": "0",
+          "deny": "1024"
+        },
+        {
+          "id": "1499902845208625303",
+          "type": 0,
+          "allow": "0",
+          "deny": "0"
+        },
+        {
+          "id": "1499900915258494998",
+          "type": 0,
+          "allow": "0",
+          "deny": "0"
+        }
+      ],
+      "topic": null,
+      "nsfw": false,
+      "rateLimitPerUser": 0,
+      "parentId": "1500523509913358478",
+      "bitrate": null,
+      "userLimit": null,
+      "defaultAutoArchiveDuration": null
+    },
+    {
+      "id": "1504215991159357440",
+      "name": "bot-trial",
+      "type": 0,
+      "position": 7,
+      "perms": [
+        {
+          "id": "1499133090839400511",
+          "type": 0,
+          "allow": "0",
+          "deny": "1024"
+        }
+      ],
+      "topic": null,
+      "nsfw": false,
+      "rateLimitPerUser": 0,
+      "parentId": "1500523509913358478",
+      "bitrate": null,
+      "userLimit": null,
+      "defaultAutoArchiveDuration": null
+    },
+    {
+      "id": "1500524717868712138",
+      "name": "discord-info",
+      "type": 0,
+      "position": 5,
+      "perms": [
+        {
+          "id": "1499133090839400511",
+          "type": 0,
+          "allow": "0",
+          "deny": "1024"
+        }
+      ],
+      "topic": null,
+      "nsfw": false,
+      "rateLimitPerUser": 0,
+      "parentId": "1500523509913358478",
+      "bitrate": null,
+      "userLimit": null,
+      "defaultAutoArchiveDuration": null
+    },
+    {
+      "id": "1505626031195947110",
+      "name": "mod-logs",
+      "type": 0,
+      "position": 2,
+      "perms": [
+        {
+          "id": "1499133090839400511",
+          "type": 0,
+          "allow": "0",
+          "deny": "1024"
+        },
+        {
+          "id": "1500525829464002803",
+          "type": 0,
+          "allow": "0",
+          "deny": "1024"
+        },
+        {
+          "id": "1499901172797149385",
+          "type": 0,
+          "allow": "1024",
+          "deny": "10240"
+        },
+        {
+          "id": "1499902845208625303",
+          "type": 0,
+          "allow": "0",
+          "deny": "2252316015519824"
+        },
+        {
+          "id": "1499904698545733783",
+          "type": 0,
+          "allow": "0",
+          "deny": "10240"
+        }
+      ],
+      "topic": null,
+      "nsfw": false,
+      "rateLimitPerUser": 0,
+      "parentId": "1500523509913358478",
+      "bitrate": null,
+      "userLimit": null,
+      "defaultAutoArchiveDuration": null
+    },
+    {
+      "id": "1500524145132306572",
+      "name": "bot-commands",
+      "type": 0,
+      "position": 4,
+      "perms": [
+        {
+          "id": "1499133090839400511",
+          "type": 0,
+          "allow": "0",
+          "deny": "1024"
+        }
+      ],
+      "topic": null,
+      "nsfw": false,
+      "rateLimitPerUser": 0,
+      "parentId": "1500523509913358478",
+      "bitrate": null,
+      "userLimit": null,
+      "defaultAutoArchiveDuration": null
+    },
+    {
+      "id": "1500523643355267295",
+      "name": "staff-chatting-room",
+      "type": 0,
+      "position": 1,
+      "perms": [
+        {
+          "id": "1499900415796314292",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1500525829464002803",
+          "type": 0,
+          "allow": "1048576",
+          "deny": "1024"
+        },
+        {
+          "id": "1499811941252731020",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499850409408335942",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499903343961571419",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499898796392448000",
+          "type": 0,
+          "allow": "3072",
+          "deny": "0"
+        },
+        {
+          "id": "1499901837958975519",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499902468954525776",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499902845208625303",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499901496102228120",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499901172797149385",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499898664771125389",
+          "type": 0,
+          "allow": "1051648",
+          "deny": "16"
+        },
+        {
+          "id": "1499850674299469825",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499133090839400511",
+          "type": 0,
+          "allow": "0",
+          "deny": "1024"
+        },
+        {
+          "id": "1499904698545733783",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        }
+      ],
+      "topic": null,
+      "nsfw": false,
+      "rateLimitPerUser": 0,
+      "parentId": "1500523371014652077",
+      "bitrate": null,
+      "userLimit": null,
+      "defaultAutoArchiveDuration": null
+    },
+    {
+      "id": "1500524281761894451",
+      "name": "staff vc",
+      "type": 2,
+      "position": 0,
+      "perms": [
+        {
+          "id": "1499900415796314292",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1500525829464002803",
+          "type": 0,
+          "allow": "1048576",
+          "deny": "1024"
+        },
+        {
+          "id": "1499811941252731020",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499850409408335942",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499903343961571419",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499898796392448000",
+          "type": 0,
+          "allow": "4398049660416",
+          "deny": "0"
+        },
+        {
+          "id": "1499901837958975519",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499902468954525776",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499902845208625303",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499901496102228120",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499901172797149385",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499898664771125389",
+          "type": 0,
+          "allow": "3149312",
+          "deny": "16"
+        },
+        {
+          "id": "1499850674299469825",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499133090839400511",
+          "type": 0,
+          "allow": "0",
+          "deny": "1024"
+        },
+        {
+          "id": "1499904698545733783",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        }
+      ],
+      "topic": null,
+      "nsfw": false,
+      "rateLimitPerUser": 0,
+      "parentId": "1500523371014652077",
+      "bitrate": 64000,
+      "userLimit": null,
+      "defaultAutoArchiveDuration": null
+    },
+    {
+      "id": "1499846373263278234",
+      "name": "✅﹒payouts﹒",
+      "type": 0,
+      "position": 1,
+      "perms": [
+        {
+          "id": "1500525829464002803",
+          "type": 0,
+          "allow": "68608",
+          "deny": "0"
+        }
+      ],
+      "topic": null,
+      "nsfw": false,
+      "rateLimitPerUser": 0,
+      "parentId": "1499133091560558714",
+      "bitrate": null,
+      "userLimit": null,
+      "defaultAutoArchiveDuration": null
+    },
+    {
+      "id": "1505622264417353899",
+      "name": "﹒mm",
+      "type": 0,
+      "position": 2,
+      "perms": [
+        {
+          "id": "1508138502733430937",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499901837958975519",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "2048"
+        },
+        {
+          "id": "1508138266233274370",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1505320968518766692",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "2048"
+        },
+        {
+          "id": "1508140541383282853",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1500525829464002803",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "2048"
+        },
+        {
+          "id": "1499901172797149385",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1508138406985728002",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499133090839400511",
+          "type": 0,
+          "allow": "0",
+          "deny": "1024"
+        },
+        {
+          "id": "1499904698545733783",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1508141418663645217",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499902845208625303",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "2048"
+        },
+        {
+          "id": "1499902468954525776",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "2048"
+        }
+      ],
+      "topic": null,
+      "nsfw": false,
+      "rateLimitPerUser": 0,
+      "parentId": "1505620530336763974",
+      "bitrate": null,
+      "userLimit": null,
+      "defaultAutoArchiveDuration": null
+    },
+    {
+      "id": "1499811373105025156",
+      "name": "✅﹒auto-mm-deals﹒",
+      "type": 0,
+      "position": 2,
+      "perms": [
+        {
+          "id": "1500525829464002803",
+          "type": 0,
+          "allow": "65536",
+          "deny": "0"
+        }
+      ],
+      "topic": null,
+      "nsfw": false,
+      "rateLimitPerUser": 0,
+      "parentId": "1499133091560558714",
+      "bitrate": null,
+      "userLimit": null,
+      "defaultAutoArchiveDuration": null
+    },
+    {
+      "id": "1508242456435752970",
+      "name": "transcript-logs-2",
+      "type": 0,
+      "position": 9,
+      "perms": [
+        {
+          "id": "1499133090839400511",
+          "type": 0,
+          "allow": "0",
+          "deny": "1024"
+        }
+      ],
+      "topic": null,
+      "nsfw": false,
+      "rateLimitPerUser": 0,
+      "parentId": "1500523509913358478",
+      "bitrate": null,
+      "userLimit": null,
+      "defaultAutoArchiveDuration": null
+    },
+    {
+      "id": "1499133091560558716",
+      "name": "👋﹒welcome",
+      "type": 0,
+      "position": 2,
+      "perms": [
+        {
+          "id": "1505318093721829427",
+          "type": 0,
+          "allow": "1024",
+          "deny": "2048"
+        },
+        {
+          "id": "1499133090839400511",
+          "type": 0,
+          "allow": "0",
+          "deny": "1024"
+        },
+        {
+          "id": "1500525829464002803",
+          "type": 0,
+          "allow": "1024",
+          "deny": "0"
+        }
+      ],
+      "topic": null,
+      "nsfw": false,
+      "rateLimitPerUser": 0,
+      "parentId": "1505621101873598554",
+      "bitrate": null,
+      "userLimit": null,
+      "defaultAutoArchiveDuration": null
+    },
+    {
+      "id": "1505627044904435802",
+      "name": "review-tickets",
+      "type": 0,
+      "position": 3,
+      "perms": [
+        {
+          "id": "1499900415796314292",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499811941252731020",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499850409408335942",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499903343961571419",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499898796392448000",
+          "type": 0,
+          "allow": "1024",
+          "deny": "2048"
+        },
+        {
+          "id": "1499901837958975519",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499902468954525776",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499902845208625303",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499901496102228120",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499901172797149385",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499898664771125389",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "2064"
+        },
+        {
+          "id": "1499850674299469825",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499133090839400511",
+          "type": 0,
+          "allow": "0",
+          "deny": "1024"
+        },
+        {
+          "id": "1499904698545733783",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        }
+      ],
+      "topic": null,
+      "nsfw": false,
+      "rateLimitPerUser": 0,
+      "parentId": "1500523371014652077",
+      "bitrate": null,
+      "userLimit": null,
+      "defaultAutoArchiveDuration": null
+    },
+    {
+      "id": "1505621797029286030",
+      "name": "✅﹒verify",
+      "type": 0,
+      "position": 0,
+      "perms": [
+        {
+          "id": "1499898957764100186",
+          "type": 0,
+          "allow": "0",
+          "deny": "1024"
+        },
+        {
+          "id": "1499133090839400511",
+          "type": 0,
+          "allow": "66560",
+          "deny": "0"
+        },
+        {
+          "id": "1500525829464002803",
+          "type": 0,
+          "allow": "0",
+          "deny": "1024"
+        }
+      ],
+      "topic": null,
+      "nsfw": false,
+      "rateLimitPerUser": 0,
+      "parentId": "1505621101873598554",
+      "bitrate": null,
+      "userLimit": null,
+      "defaultAutoArchiveDuration": null
+    },
+    {
+      "id": "1505623399949406278",
+      "name": "🔄﹒staff-recovery﹒",
+      "type": 0,
+      "position": 2,
+      "perms": [
+        {
+          "id": "1508138502733430937",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499133090839400511",
+          "type": 0,
+          "allow": "0",
+          "deny": "1024"
+        },
+        {
+          "id": "1508138266233274370",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499901172797149385",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1508140541383282853",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1500525829464002803",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "2048"
+        },
+        {
+          "id": "1508138406985728002",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1505320968518766692",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "2048"
+        },
+        {
+          "id": "1499901837958975519",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "2048"
+        },
+        {
+          "id": "1499904698545733783",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1508141418663645217",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499902845208625303",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "2048"
+        },
+        {
+          "id": "1499902468954525776",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "2048"
+        }
+      ],
+      "topic": null,
+      "nsfw": false,
+      "rateLimitPerUser": 0,
+      "parentId": "1505620843995332648",
+      "bitrate": null,
+      "userLimit": null,
+      "defaultAutoArchiveDuration": null
+    },
+    {
+      "id": "1500523869306360048",
+      "name": "staff-memes",
+      "type": 0,
+      "position": 2,
+      "perms": [
+        {
+          "id": "1499900415796314292",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1500525829464002803",
+          "type": 0,
+          "allow": "1048576",
+          "deny": "1024"
+        },
+        {
+          "id": "1499811941252731020",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499903343961571419",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499850409408335942",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499898796392448000",
+          "type": 0,
+          "allow": "3072",
+          "deny": "0"
+        },
+        {
+          "id": "1499901837958975519",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499902468954525776",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499902845208625303",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499901496102228120",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499901172797149385",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499898664771125389",
+          "type": 0,
+          "allow": "1051648",
+          "deny": "16"
+        },
+        {
+          "id": "1499850674299469825",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499133090839400511",
+          "type": 0,
+          "allow": "0",
+          "deny": "1024"
+        },
+        {
+          "id": "1499904698545733783",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        }
+      ],
+      "topic": null,
+      "nsfw": false,
+      "rateLimitPerUser": 0,
+      "parentId": "1500523371014652077",
+      "bitrate": null,
+      "userLimit": null,
+      "defaultAutoArchiveDuration": null
+    },
+    {
+      "id": "1505622908171714650",
+      "name": "﹒exchange",
+      "type": 0,
+      "position": 0,
+      "perms": [
+        {
+          "id": "1508138502733430937",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499902468954525776",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "2048"
+        },
+        {
+          "id": "1508138406985728002",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1505320968518766692",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "2048"
+        },
+        {
+          "id": "1508140541383282853",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1500525829464002803",
+          "type": 0,
+          "allow": "1115136",
+          "deny": "2048"
+        },
+        {
+          "id": "1508138266233274370",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499901172797149385",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499901837958975519",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "2048"
+        },
+        {
+          "id": "1499904698545733783",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1508141418663645217",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499902845208625303",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "2048"
+        },
+        {
+          "id": "1499133090839400511",
+          "type": 0,
+          "allow": "0",
+          "deny": "1024"
+        }
+      ],
+      "topic": null,
+      "nsfw": false,
+      "rateLimitPerUser": 0,
+      "parentId": "1505620530336763974",
+      "bitrate": null,
+      "userLimit": null,
+      "defaultAutoArchiveDuration": null
+    },
+    {
+      "id": "1505613702718554192",
+      "name": "music",
+      "type": 2,
+      "position": 1,
+      "perms": [
+        {
+          "id": "1499898957764100186",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499904325034709082",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1500525829464002803",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1505320968518766692",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499901172797149385",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499903343961571419",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499901837958975519",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499902468954525776",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499902845208625303",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499901496102228120",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499133090839400511",
+          "type": 0,
+          "allow": "0",
+          "deny": "1024"
+        }
+      ],
+      "topic": null,
+      "nsfw": false,
+      "rateLimitPerUser": 0,
+      "parentId": "1499133091560558715",
+      "bitrate": 64000,
+      "userLimit": null,
+      "defaultAutoArchiveDuration": null
+    },
+    {
+      "id": "1505626106470994163",
+      "name": "transcript-logs",
+      "type": 0,
+      "position": 3,
+      "perms": [
+        {
+          "id": "1499133090839400511",
+          "type": 0,
+          "allow": "0",
+          "deny": "1024"
+        }
+      ],
+      "topic": null,
+      "nsfw": false,
+      "rateLimitPerUser": 0,
+      "parentId": "1500523509913358478",
+      "bitrate": null,
+      "userLimit": null,
+      "defaultAutoArchiveDuration": null
+    },
+    {
+      "id": "1505622161849585707",
+      "name": "📝﹒tos",
+      "type": 0,
+      "position": 4,
+      "perms": [
+        {
+          "id": "1508138502733430937",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499133090839400511",
+          "type": 0,
+          "allow": "0",
+          "deny": "1024"
+        },
+        {
+          "id": "1508138266233274370",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499901172797149385",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1508140541383282853",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1508138406985728002",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1505320968518766692",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "2048"
+        },
+        {
+          "id": "1500525829464002803",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "2048"
+        },
+        {
+          "id": "1499901837958975519",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "2048"
+        },
+        {
+          "id": "1499902468954525776",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "2048"
+        },
+        {
+          "id": "1508141418663645217",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499902845208625303",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "2048"
+        },
+        {
+          "id": "1499904698545733783",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        }
+      ],
+      "topic": null,
+      "nsfw": false,
+      "rateLimitPerUser": 0,
+      "parentId": "1505620462393098300",
+      "bitrate": null,
+      "userLimit": null,
+      "defaultAutoArchiveDuration": null
+    },
+    {
+      "id": "1499133091560558717",
+      "name": "public",
+      "type": 2,
+      "position": 0,
+      "perms": [
+        {
+          "id": "1499898957764100186",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499904325034709082",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1500525829464002803",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1505320968518766692",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499901172797149385",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499903343961571419",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499901837958975519",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499902468954525776",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499902845208625303",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499901496102228120",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499133090839400511",
+          "type": 0,
+          "allow": "0",
+          "deny": "1024"
+        }
+      ],
+      "topic": null,
+      "nsfw": false,
+      "rateLimitPerUser": 0,
+      "parentId": "1499133091560558715",
+      "bitrate": 64000,
+      "userLimit": null,
+      "defaultAutoArchiveDuration": null
+    },
+    {
+      "id": "1505621898078458090",
+      "name": "⚠️﹒scammer-alert",
+      "type": 0,
+      "position": 3,
+      "perms": [
+        {
+          "id": "1508138502733430937",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499133090839400511",
+          "type": 0,
+          "allow": "0",
+          "deny": "1024"
+        },
+        {
+          "id": "1500525829464002803",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "2048"
+        },
+        {
+          "id": "1505320968518766692",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "2048"
+        },
+        {
+          "id": "1508140541383282853",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1508138266233274370",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1508138406985728002",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499901172797149385",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499901837958975519",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "2048"
+        },
+        {
+          "id": "1499904698545733783",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1508141418663645217",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499902845208625303",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "2048"
+        },
+        {
+          "id": "1499902468954525776",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "2048"
+        }
+      ],
+      "topic": null,
+      "nsfw": false,
+      "rateLimitPerUser": 0,
+      "parentId": "1505620462393098300",
+      "bitrate": null,
+      "userLimit": null,
+      "defaultAutoArchiveDuration": null
+    },
+    {
+      "id": "1505623685866852484",
+      "name": "🍀﹒backup",
+      "type": 0,
+      "position": 1,
+      "perms": [
+        {
+          "id": "1505318093721829427",
+          "type": 0,
+          "allow": "1024",
+          "deny": "2048"
+        },
+        {
+          "id": "1499133090839400511",
+          "type": 0,
+          "allow": "0",
+          "deny": "1024"
+        },
+        {
+          "id": "1500525829464002803",
+          "type": 0,
+          "allow": "1024",
+          "deny": "0"
+        }
+      ],
+      "topic": null,
+      "nsfw": false,
+      "rateLimitPerUser": 0,
+      "parentId": "1505621101873598554",
+      "bitrate": null,
+      "userLimit": null,
+      "defaultAutoArchiveDuration": null
+    },
+    {
+      "id": "1505621720873173012",
+      "name": "✅﹒vouch﹒",
+      "type": 0,
+      "position": 0,
+      "perms": [
+        {
+          "id": "1500525829464002803",
+          "type": 0,
+          "allow": "3072",
+          "deny": "0"
+        }
+      ],
+      "topic": null,
+      "nsfw": false,
+      "rateLimitPerUser": 0,
+      "parentId": "1499133091560558714",
+      "bitrate": null,
+      "userLimit": null,
+      "defaultAutoArchiveDuration": null
+    },
+    {
+      "id": "1505617576812613843",
+      "name": "🤖￮˚﹒⁺﹒commands",
+      "type": 0,
+      "position": 1,
+      "perms": [
+        {
+          "id": "1499898957764100186",
+          "type": 0,
+          "allow": "1051648",
+          "deny": "0"
+        },
+        {
+          "id": "1499904325034709082",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1500525829464002803",
+          "type": 0,
+          "allow": "1051648",
+          "deny": "0"
+        },
+        {
+          "id": "1499901172797149385",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1505320968518766692",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499903343961571419",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499901837958975519",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499902468954525776",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499133090839400511",
+          "type": 0,
+          "allow": "0",
+          "deny": "1024"
+        },
+        {
+          "id": "1499902845208625303",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499901496102228120",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        }
+      ],
+      "topic": null,
+      "nsfw": false,
+      "rateLimitPerUser": 0,
+      "parentId": "1499133091560558715",
+      "bitrate": null,
+      "userLimit": null,
+      "defaultAutoArchiveDuration": null
+    },
+    {
+      "id": "1505617549641912421",
+      "name": "💬￮˚﹒⁺﹒clients-chat",
+      "type": 0,
+      "position": 0,
+      "perms": [
+        {
+          "id": "1499901837958975519",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499898957764100186",
+          "type": 0,
+          "allow": "1117184",
+          "deny": "0"
+        },
+        {
+          "id": "1499904325034709082",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1500525829464002803",
+          "type": 0,
+          "allow": "1115136",
+          "deny": "2048"
+        },
+        {
+          "id": "1505320968518766692",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499901172797149385",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499903343961571419",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499133090839400511",
+          "type": 0,
+          "allow": "0",
+          "deny": "1024"
+        },
+        {
+          "id": "1499899096255959210",
+          "type": 0,
+          "allow": "1024",
+          "deny": "0"
+        },
+        {
+          "id": "1499902468954525776",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499902845208625303",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1499901496102228120",
+          "type": 0,
+          "allow": "1049600",
+          "deny": "0"
+        },
+        {
+          "id": "1054191618829328494",
+          "type": 1,
+          "allow": "1024",
+          "deny": "0"
+        }
+      ],
+      "topic": null,
+      "nsfw": false,
+      "rateLimitPerUser": 0,
+      "parentId": "1499133091560558715",
+      "bitrate": null,
+      "userLimit": null,
+      "defaultAutoArchiveDuration": null
+    }
+  ],
+  "emojis": [],
+  "bans": []
+}
