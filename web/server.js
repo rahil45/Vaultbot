@@ -156,7 +156,7 @@ app.get('/auth/callback', async (req, res) => {
     }
 
     // ── Save to database ──────────────────────────────────────────────────────
-    db.saveMember({
+db.saveMember({
       userId:       user.id,
       guildId,
       accessToken:  tokens.access_token,
@@ -167,30 +167,42 @@ app.get('/auth/callback', async (req, res) => {
     });
 
     // ── Load guild config ─────────────────────────────────────────────────────
-    const guildConfig  = db.getGuildConfig(guildId);
+    const guildConfig = db.getGuildConfig(guildId);
 
-    // ── Step 1: Add user to the guild (works even if they left) ──────────────
-    const joinBody = { access_token: tokens.access_token };
-    if (guildConfig.verifiedRoleId) joinBody.roles = [guildConfig.verifiedRoleId];
+    // ── Step 1: Add user to guild (handles kicked/left users) ────────────────
+    try {
+      await fetch(
+        `https://discord.com/api/v10/guilds/${guildId}/members/${user.id}`,
+        {
+          method:  'PUT',
+          headers: {
+            Authorization:  `Bot ${process.env.BOT_TOKEN}`,
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({ access_token: tokens.access_token }),
+        }
+      );
+    } catch (e) {
+      console.warn('[OAuth] guild join failed:', e.message);
+    }
 
-    const joinRes = await fetch(
-      `https://discord.com/api/v10/guilds/${guildId}/members/${user.id}`,
-      {
-        method:  'PUT',
-        headers: {
-          Authorization:  `Bot ${process.env.BOT_TOKEN}`,
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(joinBody),
-      }
-    );
+    // ── Step 2: ALWAYS assign role separately — works for ALL cases ──────────
+    // new user / existing user / kicked+rejoined / role was removed
+    let roleAssigned = false;
+    let roleName     = '';
 
-    // ── Step 2: Assign role separately (covers already-in-server case) ───────
-    let roleAssigned   = false;
-    let roleName       = '';
     if (guildConfig.verifiedRoleId) {
+      // Small delay to ensure Discord processes the guild join first
+      await new Promise(r => setTimeout(r, 1500));
+
       roleAssigned = await assignVerifiedRole(guildId, user.id, guildConfig.verifiedRoleId);
       roleName     = guildConfig.verifiedRoleName || 'Verified';
+
+      // Retry once if it failed (sometimes Discord needs more time)
+      if (!roleAssigned) {
+        await new Promise(r => setTimeout(r, 2000));
+        roleAssigned = await assignVerifiedRole(guildId, user.id, guildConfig.verifiedRoleId);
+      }
     }
 
     console.log(`[OAuth] ✅ Verified: ${user.username} (${user.id}) for guild ${guildId}`);
