@@ -83,9 +83,9 @@ module.exports = {
             `> ⏱️ Takes ~**${etaMin} minute${etaMin !== 1 ? 's' : ''}** due to Discord rate limits.`
           )
           .addFields(
-            { name: '📤 Pulling From',  value: sourceName,        inline: true },
-            { name: '📥 Pulling Into',  value: targetGuild.name,  inline: true },
-            { name: '👥 Members',       value: `${memberCount}`,  inline: true },
+            { name: '> 📤 Pulling From',  value: sourceName,        inline: false },
+            { name: '> 📥 Pulling Into',  value: targetGuild.name,  inline: false },
+            { name: '> 👥 Members',       value: `${memberCount}`,  inline: false },
           )
           .setFooter({ text: isRecovery ? 'Recovery mode: source server ID was specified manually' : 'Standard pull from current server' })
       ],
@@ -135,9 +135,9 @@ module.exports = {
                 .setColor(0x5865F2)
                 .setTitle('⏳ Pull In Progress')
                 .addFields(
-                  { name: '📊 Progress',  value: `${done} / ${total} members`, inline: true },
-                  { name: '⏱️ ETA',       value: `~${remaining} min left`,     inline: true },
-                  { name: '🔄 Last User', value: username,                     inline: true },
+                  { name: '> 📊 Progress',  value: `${done} / ${total} members`, inline: true },
+                  { name: '> ⏱️ ETA',       value: `~${remaining} min left`,     inline: true },
+                  { name: '> 🔄 Last User', value: username,                     inline: false },
                 )
             ]
           });
@@ -153,11 +153,11 @@ module.exports = {
               .setDescription(result.error || `Migration into **${targetGuild.name}** finished.`)
               .addFields(
                 ...(result.success ? [
-                  { name: '✅ Pulled',    value: `${result.pulled}`,  inline: true },
-                  { name: '⏭️ Skipped',  value: `${result.skipped}`, inline: true },
-                  { name: '❌ Failed',   value: `${result.failed}`,  inline: true },
-                  { name: '📤 Source',   value: sourceName,          inline: true },
-                  { name: '📥 Target',   value: targetGuild.name,    inline: true },
+                  { name: '> ✅ Pulled',    value: `${result.pulled}`,  inline: true },
+                  { name: '> ⏭️ Skipped',  value: `${result.skipped}`, inline: true },
+                  { name: '> ❌ Failed',   value: `${result.failed}`,  inline: false },
+                  { name: '> 📤 Source',   value: sourceName,          inline: true },
+                  { name: '> 📥 Target',   value: targetGuild.name,    inline: true },
                 ] : [])
               )
           ]
