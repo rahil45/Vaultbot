@@ -1,35 +1,46 @@
+const fs   = require('fs');
+const path = require('path');
 const { createBackup, listBackups, deleteBackup } = require('./backup');
 const { EmbedBuilder } = require('discord.js');
 const logger = require('./logger');
 
-const INTERVAL_HOURS = 24;   // how often to auto-backup
-const MAX_AUTO_KEEP  = 5;    // keep only the 5 most recent auto-backups per guild
-const AUTO_TAG       = 'AUTO';
+const INTERVAL_HOURS = 24;
+const MAX_AUTO_KEEP  = 5;
 
 let _client = null;
 
-function setClient(client) {
-  _client = client;
+function setClient(client) { _client = client; }
+
+// Same path resolution as backup.js — resolves at call time not import time
+function getBackupsDir() {
+  const dataDir = process.env.RAILWAY_VOLUME_MOUNT_PATH
+    || (process.env.RAILWAY_ENVIRONMENT ? '/data' : path.join(__dirname, '..', 'data'));
+  const dir = path.join(dataDir, 'backups');
+  try {
+    if (!fs.existsSync(dataDir)) fs.mkdirSync(dataDir, { recursive: true });
+    if (!fs.existsSync(dir))     fs.mkdirSync(dir,     { recursive: true });
+  } catch (e) {
+    console.error('[AutoBackup] Dir create failed:', e.message);
+  }
+  return dir;
 }
 
-/**
- * Run an auto-backup for every guild the bot is currently in.
- */
 async function runAutoBackups() {
   if (!_client) return;
 
   const guilds = _client.guilds.cache;
-  console.log(`[AutoBackup] Running auto-backup for ${guilds.size} server(s)...`);
+  console.log(`[AutoBackup] Running for ${guilds.size} server(s)...`);
 
   for (const [, guild] of guilds) {
     try {
-      // Create backup and mark it as auto
+      const BACKUPS_DIR = getBackupsDir();
+      console.log(`[AutoBackup] Using dir: ${BACKUPS_DIR}`);
+
+      // Create backup
       const backupId = await createBackup(guild);
 
-      // Patch the auto flag onto the saved file
-      const fs   = require('fs');
-      const path = require('path');
-      const file = path.join(__dirname, '..', 'data', 'backups', `${backupId}.json`);
+      // Patch auto flag onto saved file
+      const file = path.join(BACKUPS_DIR, `${backupId}.json`);
       const data = JSON.parse(fs.readFileSync(file, 'utf8'));
       data.auto  = true;
       fs.writeFileSync(file, JSON.stringify(data, null, 2));
@@ -37,23 +48,15 @@ async function runAutoBackups() {
       console.log(`[AutoBackup] ✅ ${guild.name} (${guild.id}) — ${backupId}`);
 
       // Prune old auto-backups — keep only MAX_AUTO_KEEP
-      const allBackups = listBackups(guild.id);
-      const autoBackups = allBackups.filter(b => b.auto !== false); // includes ones just patched
-
-      // re-read to get auto flag
-      const fs2   = require('fs');
-      const path2 = require('path');
-      const BACKUPS_DIR = path2.join(__dirname, '..', 'data', 'backups');
-      const autoOnes = fs2.readdirSync(BACKUPS_DIR)
+      const autoOnes = fs.readdirSync(BACKUPS_DIR)
         .filter(f => f.startsWith(guild.id) && f.endsWith('.json'))
-        .map(f => JSON.parse(fs2.readFileSync(path2.join(BACKUPS_DIR, f), 'utf8')))
+        .map(f => JSON.parse(fs.readFileSync(path.join(BACKUPS_DIR, f), 'utf8')))
         .filter(b => b.auto === true)
         .sort((a, b) => new Date(b.createdAt) - new Date(a.createdAt));
 
-      // Delete oldest ones beyond MAX_AUTO_KEEP
       for (const old of autoOnes.slice(MAX_AUTO_KEEP)) {
         deleteBackup(old.id);
-        console.log(`[AutoBackup] 🗑️ Pruned old auto-backup: ${old.id}`);
+        console.log(`[AutoBackup] 🗑️ Pruned: ${old.id}`);
       }
 
       // Send log to guild's log channel
@@ -61,9 +64,9 @@ async function runAutoBackups() {
         .setColor(0x5865F2)
         .setTitle('🔄 Auto-Backup Completed')
         .addFields(
-          { name: '🔑 Backup ID',  value: `\`${backupId}\``,                       inline: false },
-          { name: '📁 Roles',      value: `${data.roles.length}`,                  inline: true  },
-          { name: '📁 Channels',   value: `${data.channels.length + data.categories.length}`, inline: true },
+          { name: '🔑 Backup ID',  value: `\`${backupId}\``,                                              inline: false },
+          { name: '📁 Roles',      value: `${data.roles.length}`,                                         inline: true  },
+          { name: '📁 Channels',   value: `${data.channels.length + data.categories.length}`,             inline: true  },
           { name: '💾 Auto-saves', value: `${Math.min(autoOnes.length, MAX_AUTO_KEEP)} / ${MAX_AUTO_KEEP} kept`, inline: true },
         )
         .setFooter({ text: `Auto-backup runs every ${INTERVAL_HOURS}h • Use /restore to recover` })
@@ -74,23 +77,16 @@ async function runAutoBackups() {
       console.error(`[AutoBackup] ❌ Failed for ${guild.name}: ${err.message}`);
     }
 
-    // Small delay between guilds to avoid rate limits
     await new Promise(r => setTimeout(r, 2000));
   }
 }
 
-/**
- * Start the auto-backup scheduler.
- * Runs once immediately after bot is ready, then every INTERVAL_HOURS.
- */
 function startScheduler(client) {
   _client = client;
   setClient(client);
 
-  // Initial run after 30s (let bot fully connect first)
   setTimeout(() => {
     runAutoBackups();
-    // Then repeat on interval
     setInterval(runAutoBackups, INTERVAL_HOURS * 60 * 60 * 1000);
   }, 30_000);
 
