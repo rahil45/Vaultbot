@@ -10,7 +10,6 @@ const fs            = require('fs');
 const path          = require('path');
 const logger        = require('../utils/logger');
 const autoBackup    = require('../utils/autoBackup');
-const vanityMonitor = require('../utils/vanityMonitor');
 const db            = require('../utils/database');
 
 // ── Discord Client ────────────────────────────────────────────────────────────
