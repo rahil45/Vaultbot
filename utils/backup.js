@@ -3,7 +3,6 @@ const path    = require('path');
 const { ChannelType } = require('discord.js');
 
 // ── Data directory ────────────────────────────────────────────────────────────
-// Priority: Railway volume mount > /data if on Railway > local ./data
 function getDataDir() {
   if (process.env.RAILWAY_VOLUME_MOUNT_PATH) return process.env.RAILWAY_VOLUME_MOUNT_PATH;
   if (process.env.RAILWAY_ENVIRONMENT)       return '/data';
@@ -105,9 +104,21 @@ async function createBackup(guild) {
     settings, roles, categories, channels, emojis, bans,
   };
 
+  // ── Delete ALL previous backups for this guild — keep only latest ──────────
+  try {
+    const existing = fs.readdirSync(BACKUPS_DIR)
+      .filter(f => f.startsWith(guild.id) && f.endsWith('.json'));
+    for (const old of existing) {
+      fs.unlinkSync(path.join(BACKUPS_DIR, old));
+      console.log(`[Backup] 🗑️ Deleted old backup: ${old}`);
+    }
+  } catch (e) {
+    console.error('[Backup] Failed to delete old backups:', e.message);
+  }
+
   const outFile = path.join(BACKUPS_DIR, `${backupId}.json`);
   fs.writeFileSync(outFile, JSON.stringify(backup, null, 2));
-  console.log(`[Backup] Saved to ${outFile}`);
+  console.log(`[Backup] ✅ Saved to ${outFile}`);
   return backupId;
 }
 
