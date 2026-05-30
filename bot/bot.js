@@ -76,6 +76,22 @@ client.on(Events.InteractionCreate, async interaction => {
   }
 });
 
+// ── Welcome message on member join ───────────────────────────────────────────
+client.on(Events.GuildMemberAdd, async member => {
+  try {
+    const cfg = db.getGuildConfig(member.guild.id);
+    if (!cfg.welcomeChannelId) return;
+
+    const channel = await member.guild.channels.fetch(cfg.welcomeChannelId).catch(() => null);
+    if (!channel) return;
+
+    const { sendWelcomeMessage } = require('../commands/welcome');
+    await sendWelcomeMessage(channel, member, member.guild, cfg);
+  } catch (err) {
+    console.error('[Welcome] Error:', err.message);
+  }
+});
+
 // ── Guild Join Event ──────────────────────────────────────────────────────────
 client.on(Events.GuildCreate, guild => {
   console.log(`[Guild] Joined: ${guild.name} (${guild.id}) — ${guild.memberCount} members`);
