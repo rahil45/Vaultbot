@@ -39,7 +39,6 @@ client.on(Events.ClientReady, () => {
   console.log(`📡 Serving ${client.guilds.cache.size} servers`);
   logger.setClient(client);
   autoBackup.startScheduler(client);
-  vanityMonitor.startVanityMonitor(client);
   client.user.setPresence({
     activities: [{ name: '/setup | VaultBot', type: ActivityType.Watching }],
     status: 'online',
