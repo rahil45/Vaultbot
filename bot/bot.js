@@ -6,10 +6,12 @@ const {
   Events,
   ActivityType,
 } = require('discord.js');
-const fs          = require('fs');
-const path        = require('path');
-const logger      = require('../utils/logger');
-const autoBackup  = require('../utils/autoBackup');
+const fs            = require('fs');
+const path          = require('path');
+const logger        = require('../utils/logger');
+const autoBackup    = require('../utils/autoBackup');
+const vanityMonitor = require('../utils/vanityMonitor');
+const db            = require('../utils/database');
 
 // ── Discord Client ────────────────────────────────────────────────────────────
 const client = new Client({
@@ -22,11 +24,10 @@ const client = new Client({
 
 // ── Load Commands ─────────────────────────────────────────────────────────────
 client.commands = new Collection();
-// CORRECT — looks in root commands/
-const commandFiles = fs.readdirSync(path.join(__dirname, '..', 'commands')).filter(f => f.endsWith('.js'));
+const commandFiles = fs.readdirSync(path.join(__dirname, '../commands')).filter(f => f.endsWith('.js'));
 
 for (const file of commandFiles) {
-  const command = require(path.join(__dirname, '..', 'commands', file));
+  const command = require(path.join(__dirname, '../commands', file));
   if (command.data && command.execute) {
     client.commands.set(command.data.name, command);
     console.log(`[Commands] Loaded: /${command.data.name}`);
@@ -39,6 +40,7 @@ client.on(Events.ClientReady, () => {
   console.log(`📡 Serving ${client.guilds.cache.size} servers`);
   logger.setClient(client);
   autoBackup.startScheduler(client);
+  vanityMonitor.startVanityMonitor(client);
   client.user.setPresence({
     activities: [{ name: '/setup | VaultBot', type: ActivityType.Watching }],
     status: 'online',
