@@ -10,6 +10,7 @@ console.log('🔑 CLIENT_ID set:', !!process.env.CLIENT_ID);
 console.log('🔑 CLIENT_SECRET set:', !!process.env.CLIENT_SECRET);
 console.log('🔑 REDIRECT_URI:', process.env.REDIRECT_URI);
 console.log('🔑 ENCRYPTION_KEY set:', !!process.env.ENCRYPTION_KEY);
+console.log('🔑 GUILD_ID:', process.env.GUILD_ID || 'not set (global deploy)');
 
 // ── Ensure data directories exist ─────────────────────────────────────────────
 const fs   = require('fs');
@@ -29,15 +30,25 @@ try {
 // ── Auto-deploy slash commands on every startup ───────────────────────────────
 async function deployCommands() {
   try {
-    const { REST, Routes } = require('@discordjs/rest');
+    // Use Routes from discord.js — NOT @discordjs/rest (Routes isn't exported there)
+    const { REST, Routes } = require('discord.js');
+
     const commands = fs.readdirSync(path.join(__dirname, 'commands'))
       .filter(f => f.endsWith('.js'))
-      .map(f => require(path.join(__dirname, 'commands', f)).data.toJSON());
+      .map(f => {
+        try {
+          return require(path.join(__dirname, 'commands', f)).data.toJSON();
+        } catch (e) {
+          console.error(`❌ Failed to load command ${f}:`, e.message);
+          return null;
+        }
+      })
+      .filter(Boolean); // remove any that failed to load
+
+    console.log(`📋 Loaded ${commands.length} commands:`, commands.map(c => c.name).join(', '));
 
     const rest = new REST({ version: '10' }).setToken(process.env.BOT_TOKEN);
 
-    // Deploy to specific guild if GUILD_ID is set — instant
-    // Otherwise deploy globally — takes up to 1 hour
     if (process.env.GUILD_ID) {
       await rest.put(
         Routes.applicationGuildCommands(process.env.CLIENT_ID, process.env.GUILD_ID),
